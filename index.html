@@ -76,8 +76,10 @@
     </section>
 
     <section class="sobre" id="sobre">
-        <h2 class="sobre-titulo">Design de Interiores Personalizado</h2>
-        <h3 class="sobre-subtitulo">Transforme seus Espaços com Apenas Alguns Cliques</h3>
+        <div>
+            <h2 class="sobre-titulo">Design de Interiores Personalizado</h2>
+            <h3 class="sobre-subtitulo">Transforme seus Espaços com Apenas Alguns Cliques</h3>
+        </div>
         <div class="conteudo-container">
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
@@ -189,19 +191,21 @@
         <!-- </div> -->
     </section>
 </main>
-<form id="fs-frm" class="contact-form" name="contact-form" accept-charset="utf-8" action="#" method="post">
-    <h2>Entre em contato com a gente!</h2>
-    <fieldset id="fs-frm-inputs">
-      <label for="full-name">Nome Completo</label>
-      <input type="text" name="name" id="full-name" placeholder="Nome e Sobrenome" required="">
-      <label for="email-address">Endereço Email</label>
-      <input type="email" name="_replyto" id="email-address" placeholder="email@dominio.com" required="">
-      <label for="message">Mensagem</label>
-      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-    </fieldset>
-    <input type="submit" value="Enviar">
-  </form>
+<section class="contact-form-container">
+    <form id="fs-frm" class="contact-form" name="contact-form" accept-charset="utf-8" action="#" method="post">
+        <h2>Entre em contato com a gente!</h2>
+        <fieldset id="fs-frm-inputs">
+          <label for="full-name">Nome Completo</label>
+          <input type="text" name="name" id="full-name" placeholder="Nome e Sobrenome" required="">
+          <label for="email-address">Endereço Email</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@dominio.com" required="">
+          <label for="message">Mensagem</label>
+          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Enviar">
+      </form>
+</section>
   <footer class="rodape" id="rodape">
     <h3>Perguntas?</h3>
     <p>Não achou o que precisava? Nos envie sua dúvida logo <a href="#fs-frm">acima!</a></p>
