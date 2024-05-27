@@ -1,3 +1,15 @@
+:root {
+    --title-color1: #e8f2f5;
+    --color1: #e8f2f5;
+    --bg-color1: #00254E;
+    
+    --title-color2: #21282c;
+    --color2: #000000;
+    --bg-color2: #6892c5;
+
+    --bg-color3: #5D83B1;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -159,12 +171,12 @@ body {
     color: #2b1e04;
 }
   
-  .cssbuttons-io-button:hover .icon svg {
+.cssbuttons-io-button:hover .icon svg {
     transform: translateX(0.1em);
     transform: rotate(90deg);
 }
   
-  .cssbuttons-io-button:active .icon {
+.cssbuttons-io-button:active .icon {
     transform: scale(0.95);
 }
 
@@ -194,7 +206,7 @@ body {
 
 .sobre {
     padding: 0px 15px;
-    background-color: #312d2e;
+    background-color: var(--bg-color1);
     color: #fff;
     text-align: center;
     /* min-height: 80vh; */
@@ -207,7 +219,10 @@ body {
     max-width: 940px;
     margin: auto;
 }
-
+.sobre-titulo,
+.sobre-subtitulo {
+    color: var(--title-color1);
+}
 
 .sobre > h2 {
     font-size: 2.5rem;
@@ -220,7 +235,6 @@ body {
 .sobre > h3 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #ffefed;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
@@ -270,7 +284,7 @@ body {
 .titulo-lateral {
     font-size: 2rem;
     margin-bottom: 10px;
-    color: #FFE4E1;
+    color: var(--title-color1);
     text-shadow: 2px 2px 4px #000000b3;
 }
 
@@ -459,7 +473,7 @@ body {
 
 .design-comparasion h2 {
     font-size: 2rem;
-    color: #FFE4E1;
+    color: var(--title-color1);
     text-shadow: 2px 2px 4px #000000b3;
     /* padding: 0 15px; */
     /* margin-top: 10px; */
@@ -531,15 +545,19 @@ body {
 
 /* Serviços */
 .servicos-titulo {
-    max-width: 800px;
+    background-color: var(--bg-color2);
+    color: var(--title-color2);
+    /* max-width: 800px; */
     /* background: linear-gradient(to right, #0000001e, white, transparent); */
     margin: auto;
     text-align: center;
     padding: 5px 0;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .servicos {
+    background-color: var(--bg-color2);
+    color: var(--color2);
     padding: 0 10px;
     display: flex;
     flex-wrap: wrap;
@@ -553,11 +571,17 @@ body {
     margin: 10px auto 13px auto;
     width: calc(50% - 20px); /* metade da largura menos o espaço entre eles */
     max-width: 360px; /* largura máxima para garantir que não fiquem muito grandes */
+    transition: .3s;
+    background-color:var(--bg-color3);
+}
+.servicos-card:hover {
+    transition: .3s;
+    box-shadow: 2px 2px 12px #00000036;
 }
 
 .servicos-card img {
     height: 50px;
-    background-color: #f8feff69;
+    background-color: #cfe5ff;
     /* box-shadow: 1px 1px 6px #00000025; */
     /* border: 1px solid #80808070; */
     padding: 5px;
