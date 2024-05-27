@@ -1,13 +1,13 @@
 :root {
-    --title-color1: #e8f2f5;
-    --color1: #e8f2f5;
-    --bg-color1: #00254E;
+    --title-color1: #333333;
+    --color1: #171818;
+    --bg-color1: #EFF1E6;
     
-    --title-color2: #fafdff;
-    --color2: #f0e9e9;
-    --bg-color2: #192F43;
+    --title-color2: #0d0d0e;
+    --color2: #000000;
+    --bg-color2: #E0E2D7;
 
-    --bg-color3: #1b344b;
+    --bg-color3: #caccbf;
 }
 
 * {
@@ -74,7 +74,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #e2e8e9;
-    text-shadow: 0 0 12px #000000a6;
+    text-shadow: 0 0 12px #0000001e;
     text-align: center;
     padding: 0 20px;
 }
@@ -221,21 +221,21 @@ body {
 }
 .sobre-titulo,
 .sobre-subtitulo {
-    color: var(--title-color1);
+    color: var(--title-color1) !important;
 }
 
 .sobre .sobre-titulo {
     font-size: 2.5rem;
     /* margin-bottom: 10px; */
     color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px #00000023;
     padding: 0 3px;
 }
 
 .sobre .sobre-subtitulo {
     font-size: 1.8rem;
     /* margin-bottom: 20px; */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 4px #00000044;
 }
 
 .conteudo-container {
@@ -285,13 +285,14 @@ body {
     font-size: 2rem;
     margin-bottom: 10px;
     color: var(--title-color1);
-    text-shadow: 2px 2px 4px #000000b3;
+    text-shadow: 2px 2px 4px #0000002d;
 }
 
 .descricao-lateral {
     font-size: 1.2rem;
     line-height: 1.6;
     margin-bottom: 20px;
+    color: var(--color1) !important;
 }
 
 @media (max-width: 992px) {
@@ -475,7 +476,7 @@ body {
 .design-comparasion h2 {
     font-size: 2rem;
     color: var(--title-color1);
-    text-shadow: 2px 2px 4px #000000b3;
+    text-shadow: 2px 2px 4px #0000003d;
     /* padding: 0 15px; */
     /* margin-top: 10px; */
     text-align: left;
@@ -486,6 +487,7 @@ body {
     line-height: 1.6;
     text-align: left;
     /* padding: 0 15px; */
+    color: var(--color1);
 }
 
 @media (min-width: 993px) {
@@ -579,7 +581,7 @@ body {
 
 .servicos-card img {
     height: 50px;
-    background-color: #bfc3ce;
+    background-color: #e7e5db;
     /* box-shadow: 1px 1px 6px #00000025; */
     /* border: 1px solid #80808070; */
     padding: 5px;
