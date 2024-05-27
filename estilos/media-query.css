@@ -20,4 +20,8 @@ Grandes Telas: de 1200px para cima
     .servicos-card {
         box-shadow: none;
     }
+    .sobre {
+        padding: 30px 0;
+        gap: 50px;
+    }
 }
