@@ -3,11 +3,11 @@
     --color1: #e8f2f5;
     --bg-color1: #00254E;
     
-    --title-color2: #21282c;
-    --color2: #000000;
-    --bg-color2: #6A98C3;
+    --title-color2: #fafdff;
+    --color2: #f0e9e9;
+    --bg-color2: #192F43;
 
-    --bg-color3: #5D83B1;
+    --bg-color3: #1b344b;
 }
 
 * {
@@ -579,7 +579,7 @@ body {
 
 .servicos-card img {
     height: 50px;
-    background-color: #cfe5ff;
+    background-color: #bfc3ce;
     /* box-shadow: 1px 1px 6px #00000025; */
     /* border: 1px solid #80808070; */
     padding: 5px;
